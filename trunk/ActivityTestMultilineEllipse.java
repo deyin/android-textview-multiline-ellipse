@@ -30,7 +30,7 @@ public class ActivityTestMultilineEllipse extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+ 
         LinearLayout llMain = new LinearLayout(this);
         llMain.setOrientation(LinearLayout.VERTICAL);
         llMain.setBackgroundColor(0xFFFFFFFF);
