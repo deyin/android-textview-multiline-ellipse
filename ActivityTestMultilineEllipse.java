@@ -26,11 +26,11 @@ import android.widget.ScrollView;
 
 
 public class ActivityTestMultilineEllipse extends Activity {
-	
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
- 
+
         LinearLayout llMain = new LinearLayout(this);
         llMain.setOrientation(LinearLayout.VERTICAL);
         llMain.setBackgroundColor(0xFFFFFFFF);
@@ -68,14 +68,14 @@ public class ActivityTestMultilineEllipse extends Activity {
         tv2.setPadding(10, 10, 10, 10);
         tv2.setBackgroundColor(0xFFFCDFB2);
         tv2.setOnClickListener(new OnClickListener() {
-			public void onClick(View v) {
-				if (tv2.getIsExpanded()) {
-					tv2.collapse();
-				}
-				else {
-					tv2.expand();
-				}
-			}
+            public void onClick(View v) {
+                if (tv2.getIsExpanded()) {
+                    tv2.collapse();
+                }
+                else {
+                    tv2.expand();
+                }
+            }
         });
         llContent.addView(tv2);
     }
