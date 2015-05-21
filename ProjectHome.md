@@ -1,0 +1,1 @@
+This is a simple widget designed to provided ellipsis support for multiline strings. The android project does not have a TextView which ellipsizes multiline strings.
